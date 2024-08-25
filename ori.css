@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    position: relative;
+    z-index: 100;
+}
+
+.main {
+    background-image: url('Things/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    height: 700px;
+    background-position: -169px -211px;
+    background-size: max(1620px, 123.5vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .black {
+    height: 699px;
+    width: 100%;
+    opacity: 0.66;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75.20vw;
+    margin: auto;
+    height: 92px;
+}
+
+span>img {
+    position: relative;
+    z-index: 10;
+    width: 148px;
+}
+
+.flexbox {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #5E5E5E;
+    padding: 6px 14px;
+    font-size: 14.5px;
+    font-weight: 500;
+    margin: 0px 12px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5E5E5E;
+    color: rgb(255, 90, 90);
+}
+
+
+.beat {
+    padding: 5px 35px;
+    cursor: auto
+}
+
+.ayaaya {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 24px;
+    font-weight: 900;
+    gap: 19px;
+    padding: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.ayaaya> :nth-child(1) {
+    font-size: 46px;
+}
+
+.ayaaya> :nth-child(2) {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.ayaaya> :nth-child(3) {
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.entery {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+}
+
+.email {
+    width: 52%;
+    height: 55px;
+    background-color: #100f10b3;
+    border: 1px solid #5E5E5E;
+    color: white;
+    position: relative;
+    z-index: 15;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 16.5px;
+}
+
+.bothi {
+    width: 210px;
+    height: 55px;
+    background-color: #E50914;
+    border: none;
+    color: white;
+    position: relative;
+    z-index: 15;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 23px;
+    margin-left: 8px;
+}
+
+.lali {
+    background-color: #E50914;
+    border: none;
+}
+
+.andaman {
+    height: 8px;
+    background-color: #232323;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#chinese {
+    padding-right: 11.5px;
+}
+
+.first {
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    column-gap: 15px;
+    height: 530px;
+}
+
+.TV img {
+    width: 508px;
+}
+
+.TV {
+    position: relative;
+    top: 0;
+}
+
+.TV video {
+    position: absolute;
+    top: 20%;
+    left: 13.6%;
+    z-index: -1;
+    width: 375px;
+}
+
+.first>.text :first-child {
+    font-size: 43.5px;
+    font-weight: 900;
+}
+
+.first>.text :last-child {
+    font-size: 22px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.first>.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.Pagal {
+    color: white;
+}
+
+.Pagal h1 {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 28px;
+}
+
+.kachodi {
+    display: flex;
+    background-color: #2D2D2D;
+    padding: 24px;
+    /* padding-bottom: 16px; */
+    justify-content: space-between;
+    max-width: 72vw;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.kachodi :first-child {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.kachodi:hover {
+    background-color: #414141;
+}
+
+.ready {
+    padding: 20px;
+}
+
+.ready span {
+    font-size: 20px;
+}
+
+.foot {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+}
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 49px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #B3B3B3;
+
+}
+
+.viewBox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+a {
+    color: #B3B3B3;
+    font-size: 14px;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+
+footer .no {
+    padding: 15px 0px;
+}
+
+#number {
+    font-size: 18px;
+}
+
+.last {
+    margin: 0;
+    margin-top: 18px;
+    padding: 5px 35px;
+}
+
+.final {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: rgb(179 179 179);
+    margin: 26px 0px;
+}
+
+.TV .bhopal {
+    position: absolute;
+    top: 8%;
+    left: 16.1%;
+    z-index: -1;
+    width: 338px;
+}
+
+@media screen and (max-width: 1250px) {
+    .first {
+        display: flex;
+        max-width: 93vw;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        /* column-gap: 15px; */
+        height: 530px;
+    }
+
+    .first>.text :first-child {
+        font-size: 44.5px;
+        font-weight: 900;
+
+    }
+
+    .first>.text :last-child {
+        font-size: 22px;
+        font-weight: 400;
+        width: 95%;
+    }
+
+    .first>.text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .TV img {
+        width: 450px;
+    }
+
+    .TV video {
+        position: absolute;
+        top: 20%;
+        left: 13.6%;
+        z-index: -1;
+        width: 375px;
+    }
+
+    .first {
+        display: flex;
+        max-width: 93vw;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        /* column-gap: 15px; */
+        height: 530px;
+    }
+
+    nav {
+        max-width: 95.20vw;
+    }
+
+    .first>.text :last-child {
+        font-size: 23.5px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .first {
+        height: 470px;
+    }
+
+    footer {
+        max-width: 93vw;
+    }
+
+    .kachodi {
+        max-width: 88vw;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .main {
+        background-image: url(Things/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        height: 520px;
+        background-position: -83px -31px;
+        background-size: max(900px, 150.5vw);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 93vw;
+        margin: auto;
+        height: 86px;
+    }
+
+    span>img {
+        position: relative;
+        z-index: 10;
+        width: 90px;
+    }
+
+    button {
+        position: relative;
+        z-index: 10;
+        color: white;
+        border-radius: 3px;
+        background-color: transparent;
+        border: 1px solid #5E5E5E;
+        padding: 6px 14px;
+        font-size: 14.5px;
+        font-weight: 500;
+        margin: 0px 5px;
+        transition: all 0.25s ease-in-out;
+        cursor: pointer;
+    }
+
+    .main .black {
+        height: 520px;
+    }
+
+    .ayaaya {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: relative;
+        z-index: 10;
+        font-size: 24px;
+        font-weight: 900;
+        gap: 19px;
+        padding: 10px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+
+    .ayaaya> :nth-child(1) {
+        font-size: 30.5px;
+        font-weight: 700;
+    }
+
+    .ayaaya> :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .ayaaya> :nth-child(3) {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 4px;
+    }
+
+    .entery {
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 630px;
+    }
+
+    .first {
+        height: 725px;
+        flex-direction: column;
+    }
+
+    .first>.text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .first>.text :first-child {
+        font-size: 30.5px;
+        font-weight: 700;
+    }
+
+    .first>.text :last-child {
+        font-size: 17.5px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .TV img {
+        width: 640px;
+    }
+
+    .TV video {
+        width: 465px;
+    }
+
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .fourth {
+        flex-direction: column-reverse;
+    }
+
+    .Pagal h1 {
+        font-size: 30.5px;
+        font-weight: 700;
+    }
+
+    .kachodi {
+        padding: 24px 24px;
+    }
+
+    .kachodi :first-child {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .plus {
+        width: 23px;
+        height: 20px;
+    }
+
+    .ready span {
+        font-size: 17px;
+    }
+
+    footer {
+        padding: 7px 0px;
+    }
+
+    footer .no {
+        padding: 15px 0px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: #B3B3B3;
+    }
+
+    .kachodi {
+        max-width: 85vw;
+    }
+
+    .TV .bhopal {
+        width: 428px;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .entery {
+        width: 90%;
+    }
+
+    .email {
+        width: 45%;
+        height: 55px;
+        background-color: #100f10b3;
+        border: 1px solid #5E5E5E;
+        color: white;
+        position: relative;
+        z-index: 15;
+        border-radius: 5px;
+        padding: 0px 10px;
+        font-size: 16.5px;
+    }
+
+    .bothi {
+        width: 210px;
+        height: 55px;
+        background-color: #E50914;
+        border: none;
+        color: white;
+        position: relative;
+        z-index: 15;
+        border-radius: 5px;
+        padding: 0px 10px;
+        font-size: 23px;
+        margin-left: 8px;
+    }
+
+    .main {
+        background-size: max(969px, 150.5vw);
+    }
+
+    .TV img {
+        width: 89.5vw;
+    }
+
+    .ayaaya> :nth-child(1) {
+        font-size: 30.5px;
+        font-weight: 700;
+        width: 93%;
+    }
+
+    .ayaaya> :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .ayaaya> :nth-child(3) {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 4px;
+        width: 82%;
+    }
+
+    .kachodi {
+        max-width: 82vw;
+    }
+
+    .first>.text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        text-align: center;
+        margin-bottom: 25px;
+        align-items: center;
+    }
+
+    .first>.text :last-child {
+        font-size: 17.5px;
+        font-weight: 400;
+        width: 96%;
+    }
+
+    .first {
+        height: 655px;
+    }
+
+    .TV .bhopal {
+        width: 59vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .beat {
+        padding: 5px 15px;
+        cursor: auto;
+    }
+
+    .main {
+        background-image: url(Things/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        height: 480px;
+        background-position: -102px 0px;
+        background-size: max(860px, 96.5vw);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main .black {
+        height: 478px;
+    }
+
+    .ayaaya {
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        position: relative;
+        z-index: 10;
+        font-size: 24px;
+        font-weight: 900;
+        gap: 19px;
+        padding: 10px;
+        padding-bottom: 2px;
+        text-align: center;
+        /* padding-top: 22px; */
+        margin-top: 20px;
+    }
+
+    .ayaaya> :nth-child(1) {
+        font-size: 30.5px;
+        font-weight: 700;
+        width: 93%;
+    }
+
+    .ayaaya> :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .ayaaya> :nth-child(3) {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 4px;
+        width: 85%;
+    }
+
+    .entery {
+        width: 80%;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .email {
+        width: 90%;
+        height: 46px;
+        background-color: #100f10b3;
+        border: 1px solid #5E5E5E;
+        color: white;
+        position: relative;
+        z-index: 15;
+        border-radius: 5px;
+        padding: 0px 10px;
+        font-size: 15.5px;
+    }
+
+    .bothi {
+        width: 150px;
+        height: 48px;
+        background-color: #E50914;
+        border: none;
+        color: white;
+        position: relative;
+        z-index: 15;
+        border-radius: 3px;
+        padding: 0px 10px;
+        font-size: 17.5px;
+        margin-left: 0;
+    }
+
+    .first {
+        /* height: 146.72vw; */
+        height: 650px;
+    }
+
+    .first>.text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        text-align: center;
+        margin-bottom: 25px;
+        align-items: center;
+    }
+
+    .TV video {
+        width: 67vw;
+    }
+
+    .ready {
+        padding: 20px 45px;
+        text-align: center;
+    }
+
+    footer {
+        max-width: 85vw;
+    }
+
+    .kachodi {
+        max-width: 77%;
+    }
+
+}
+
+@media screen and (max-width:359px) {
+    .main {
+        background-image: url(Things/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        height: 520px;
+        background-position: -100px 1px;
+        background-size: max(904px, 96.5vw);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main .black {
+        height: 510px;
+    }
+
+}
+
+@media screen and (max-width:339px) {
+    .main {
+        background-image: url(Things/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        height: 560px;
+        background-position: -100px 1px;
+        background-size: max(954px, 99.5vw);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main .black {
+        height: 540px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .first {
+        /* height: 146.72vw; */
+        height: 587px;
+    }
+}
+
+@media screen and (max-width:444px) {
+    .first {
+        /* height: 146.72vw; */
+        height: 555px;
+    }
+}
+
+@media screen and (max-width:444px) {
+    .first {
+        /* height: 146.72vw; */
+        height: 505px;
+    }
+}
+
+@media screen and (max-width:444px) {
+    .first {
+        /* height: 146.72vw; */
+        height: 492px;
+    }
+}
+.main .blacklight {
+    height: 699px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(0 0 0 / 90%) 0, rgba(0, 0, 0, 0) 60%, rgb(0 0 0 / 93%) 100%);
+    position: absolute;
+    top: 0;
+}
